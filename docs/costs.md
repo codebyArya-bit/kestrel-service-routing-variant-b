@@ -1,0 +1,2 @@
+# Cost method
+This implementation uses local scikit-learn inference and makes no paid inference API calls. Paid API cost is zero per prediction; for hypothetical monthly count V it is V × zero. This excludes electricity, hosting, maintenance, human review and any AI development subscription. Measure those separately before calculating net savings. Treat avoided transfer/contact amounts and a cancellable licence as conditional scenarios, not realized savings; avoid adding technician visits without causal evidence.

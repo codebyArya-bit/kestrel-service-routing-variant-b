@@ -1,0 +1,43 @@
+request_text,channel,product_family,warranty_status,team,source
+install purifier technician setup,web,appliance,unknown,Installations,synthetic_public_demo
+installation appointment for new purifier,web,appliance,unknown,Installations,synthetic_public_demo
+send engineer to mount and connect appliance,web,appliance,unknown,Installations,synthetic_public_demo
+I paid already please install the purifier,web,appliance,unknown,Installations,synthetic_public_demo
+schedule product demonstration and setup,web,appliance,unknown,Installations,synthetic_public_demo
+new appliance needs installation connection,web,appliance,unknown,Installations,synthetic_public_demo
+purifier broken not working repair,web,appliance,unknown,Repairs,synthetic_public_demo
+I paid for this purifier but it is broken and not working,web,appliance,unknown,Repairs,synthetic_public_demo
+motor stopped needs repair technician,web,appliance,unknown,Repairs,synthetic_public_demo
+water leaking from appliance please fix,web,appliance,unknown,Repairs,synthetic_public_demo
+device fault makes strange noise,web,appliance,unknown,Repairs,synthetic_public_demo
+repair faulty pump service visit,web,appliance,unknown,Repairs,synthetic_public_demo
+buy replacement filter cartridge,web,appliance,unknown,Consumables,synthetic_public_demo
+order consumable filters for purifier,web,appliance,unknown,Consumables,synthetic_public_demo
+need new brush and dust bag,web,appliance,unknown,Consumables,synthetic_public_demo
+replace used filter subscription,web,appliance,unknown,Consumables,synthetic_public_demo
+purchase cartridge refill pack,web,appliance,unknown,Consumables,synthetic_public_demo
+filter exhausted need replacement consumables,web,appliance,unknown,Consumables,synthetic_public_demo
+incorrect invoice payment charge,web,appliance,unknown,Billing,synthetic_public_demo
+refund duplicate payment on invoice,web,appliance,unknown,Billing,synthetic_public_demo
+charged twice please reverse transaction,web,appliance,unknown,Billing,synthetic_public_demo
+payment receipt invoice billing error,web,appliance,unknown,Billing,synthetic_public_demo
+bill amount wrong correct invoice,web,appliance,unknown,Billing,synthetic_public_demo
+payment failed money debited,web,appliance,unknown,Billing,synthetic_public_demo
+return newly delivered damaged product,web,appliance,unknown,Returns & Replacement,synthetic_public_demo
+replace wrong item delivered,web,appliance,unknown,Returns & Replacement,synthetic_public_demo
+request exchange appliance received damaged,web,appliance,unknown,Returns & Replacement,synthetic_public_demo
+return appliance within return window,web,appliance,unknown,Returns & Replacement,synthetic_public_demo
+delivery missing accessories replacement,web,appliance,unknown,Returns & Replacement,synthetic_public_demo
+wrong model delivered arrange exchange,web,appliance,unknown,Returns & Replacement,synthetic_public_demo
+submit warranty claim coverage,web,appliance,unknown,Warranty Claims,synthetic_public_demo
+warranty registration certificate claim,web,appliance,unknown,Warranty Claims,synthetic_public_demo
+extended warranty eligibility documentation,web,appliance,unknown,Warranty Claims,synthetic_public_demo
+claim under warranty with proof of purchase,web,appliance,unknown,Warranty Claims,synthetic_public_demo
+warranty coverage expired appeal claim,web,appliance,unknown,Warranty Claims,synthetic_public_demo
+warranty terms coverage status,web,appliance,unknown,Warranty Claims,synthetic_public_demo
+recommend purifier model for family,web,appliance,unknown,Product Advice,synthetic_public_demo
+compare appliance features before buying,web,appliance,unknown,Product Advice,synthetic_public_demo
+which vacuum is suitable for my home,web,appliance,unknown,Product Advice,synthetic_public_demo
+advice on product capacity and specifications,web,appliance,unknown,Product Advice,synthetic_public_demo
+help choose best model to purchase,web,appliance,unknown,Product Advice,synthetic_public_demo
+compare purifier models product recommendation,web,appliance,unknown,Product Advice,synthetic_public_demo

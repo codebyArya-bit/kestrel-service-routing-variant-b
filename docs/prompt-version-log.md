@@ -1,0 +1,2 @@
+# AI and version log
+ChatGPT Codex with gpt-6.1-sol implementer agents assisted data contracts, local modelling, evaluation, service UI and documentation. The running classifier is local scikit-learn, not an LLM API. No historical prompts are reconstructed as quotations. Task reports record actual changes and test commands; keep operational experiment results restricted. Development subscription marginal cost was not measured. A planned final model review is not a completed review.

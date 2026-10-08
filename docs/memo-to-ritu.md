@@ -1,0 +1,2 @@
+# Memo template
+Decision: run a supervised pilot before changing the existing service contract. Insert separately verified operational results and costs in the restricted memo. Measure actual intent correctness, transfers, contacts, review minutes and queue outcomes next week. Keep the current route available for immediate rollback. Approve expansion only after a documented quality, cost and safety gate; do not infer realized savings from label agreement.
