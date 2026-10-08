@@ -4,7 +4,27 @@ A local employee screen and JSON endpoint suggest one of seven service teams and
 
 ## Run
 
-Python 3.11 or newer is recommended. From this directory:
+Python 3.11 or newer is recommended (Python 3.12 is a suitable choice). From this directory:
+
+### Windows PowerShell
+
+```powershell
+py -3 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe serve.py
+```
+
+If `py` is unavailable, install Python from python.org with **Add python.exe to PATH**, reopen PowerShell, and use `python -m venv .venv` instead of the first command. Windows uses `Scripts\python.exe`; Linux/macOS use `bin/python`. No activation command is required.
+
+For the separately supplied trusted restricted bundle, after verifying its hashes:
+
+```powershell
+.\.venv\Scripts\python.exe serve.py --model final/model.pkl
+```
+
+Run tests with `.\.venv\Scripts\python.exe -m unittest discover -s tests -v`.
+
+### Linux / macOS
 
 ```sh
 python3 -m venv .venv
@@ -34,8 +54,8 @@ See `docs/` for generic method, limitations, costs and handoff templates. Operat
 
 ## Handoff status
 
-Senior whole-branch review completed with no critical or important defects. Final scoped fix review passed; candidate submission remains pending. Actual Task 2 hours and an under-three-minute recording URL remain unconfirmed. Public repository and Drive visibility have not been verified.
+Senior whole-branch review completed with no critical or important defects. Final scoped fix review passed; candidate submission remains pending. Actual Task 2 hours and an under-three-minute recording URL remain unconfirmed. Public repository and the designated public Drive folder were verified on 8 October 2026.
 
-For publication, create a new public `kestrel-service-routing-variant-b` repository under `codebyArya-bit` (leave the Task 1 repository intact) and upload only the public-safe bundle. Upload that same public-safe bundle to the designated Drive account `aryabrat.mishra1@gmail.com`, enable public viewing manually, and verify signed-out access. Restricted artifacts belong only to the owner or authorized engagement recipients. Complete the unresolved form fields from observed facts before submitting.
+Public code: https://github.com/codebyArya-bit/kestrel-service-routing-variant-b . Publish only public-safe code and synthetic examples. Restricted artifacts belong only to the owner or authorized engagement recipients. Complete the unresolved form fields from observed facts before submitting.
 
 An authorized local operator can package existing frozen artifacts with `python scripts/package.py --output /absolute/output/path --expected-prediction-sha256 VERIFIED_SHA256`. This command requires an authorized source checkout containing the omitted private input pack and restricted handoff files. Downloaded bundles intentionally omit those inputs and cannot recreate packaging alone. It validates frozen model/freeze hashes against evaluation evidence and existing predictions without training or regenerating them.
